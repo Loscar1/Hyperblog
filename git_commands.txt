@@ -1,0 +1,265 @@
+    1  git --version
+    2  git config --global user.name "Efrain Perez"
+    3  git config --global user.email "loscarefrainperez04@gmail.com
+    4  ls
+    5  s
+    6  ls
+    7  documents
+    8  cd documents
+    9  mkdur first_repo
+   10  mkdir first_repo
+   11  cd first_repo
+   12  ls
+   13  touch README.md
+   14  git init
+   15  ls -la
+   16  git status
+   17  git add README.md
+   18  git status
+   19  git commit -m "First Commit"
+   20  git config --global user.email "loscarefrainperez04@gmail.com"
+   21  git config --global user.name "Efrain"
+   22  git commit -m "First Commit"
+   23  git status
+   24  git log
+   25  git log
+   26  q
+   27  nano README.md
+   28  nano readme.md
+   29  git status
+   30  cat readme.md
+   31  git status
+   32  git add readme.md
+   33  git commit -m "second commit"
+   34  git status
+   35  git add README.md
+   36  git status
+   37  git commit -m "second commit"
+   38  git log
+   39  git log --soft fac12aca75eb6da97f0f9d0cc247c0d66914a874
+   40  git reset --soft fac12aca75eb6da97f0f9d0cc247c0d66914a874
+   41  git status
+   42  git branch
+   43  git checkout -b develop
+   44  git branch
+   45  ls
+   46  nano readme.md
+   47  git status
+   48  git add readme.md
+   49  git commit -m "change over README"
+   50   git checkout master
+   51  git status
+   52  git add readme.md
+   53  git commit readme.md "changes over readme"
+   54  git commit -m readme.md "changes over readme"
+   55  git commit -m readme.md "changes over readme"
+   56  git commit -m "readme.md"
+   57  git add readme.md
+   58  git commit readme.md
+   59  git commit - m "changes over readme"
+   60  git add readme.md
+   61  git commit -m "changed over README"
+   62  git checkout master
+   63  git status
+   64  git add readme.md
+   65  git commit -m
+   66  git commit -m "changed over readme"
+   67  git restore readme.md
+   68  git add readme md
+   69  git add readme md
+   70  git add readme.md
+   71  git restore readme.md
+   72  git status
+   73  git commit -m "changed over"
+   74  git add readme.md
+   75  git restore readme.md
+   76  git status
+   77  git branch
+   78  ls
+   79  cat readme.md
+   80  git status
+   81  git add README.md
+   82  git commit -m "changed over readme"
+   83  git checkout master
+   84  git rebase develop
+   85  git log
+   86  git merge develop
+   87  git checkout -b another branch
+   88  git checkout -b another_branch
+   89  nano readme.md
+   90  git status
+   91  git add .
+   92  git commit -m "Another commit from other branch"
+   93  git checkout master
+   94  git merge another_branch
+   95  git log
+   96  ls la
+   97  ls
+   98  cd
+   99  cd
+  100  ls
+  101  cd documents
+  102  cd
+  103  cd mount
+  104  cd c
+  105  ls -la
+  106  cd ssh
+  107  cd .ssh
+  108  cd .ssh
+  109  ssh -keygen
+  110  ssh-keygen
+  111  ls -la
+  112  cd .ssh
+  113  ls
+  114  cat id_rsa.pub
+  115  cd
+  116  cd documents
+  117  git clone $ git@github.com:Loscar1/myfirstrep.git
+  118  git clone git@github.com:Loscar1/myfirstrep.git
+  119  cd my first repo
+  120  cd myfirstrep
+  121  ls
+  122  code .
+  123  pwd
+  124  python
+  125  x =2
+  126  python
+  127  touch main.py
+  128  python3
+  129  python3
+  130  python
+  131  cd
+  132  cd mount/c/users/losca
+  133  ls
+  134  cd users
+  135  ls
+  136  clear
+  137  git
+  138  -apt get update
+  139  cd c
+  140  cd /mnt/c
+  141  cd
+  142  cd /mnt
+  143  pwd
+  144  cd desktop
+  145  mkdir curso_git_github
+  146  cd curso_git_github/
+  147  clear
+  148  cd /c
+  149  ls
+  150  cd /users
+  151  cd users
+  152  cd losca
+  153  cd Desktop/
+  154  cd curso_git_github/
+  155  touch vacio.txt
+  156  ls
+  157  ls | lolcat
+  158  vim vacio.txt
+  159  head vacio.txt
+  160  cat vacio.txt
+  161  history
+  162  history > historial.txt
+  163  less historial.txt
+  164  pwd
+  165  cd desktop
+  166  ls
+  167  cd curso_git_github/
+  168  ls
+  169  python3
+  170  cls
+  171  lear
+  172  ls
+  173  cat historial
+  174  cat historial.txt
+  175  clear
+  176  mkdir proyecto1
+  177  ls
+  178  cd proyecto1/
+  179  touch vacio.txt
+  180  ls
+  181  ls -al
+  182  rm vacio.txt 
+  183  ls
+  184  git init
+  185  ls -al
+  186  code .
+  187  git status
+  188  git add Historia.txt
+  189  git status
+  190* 
+  191  git rm --cached
+  192  git rm --cached Historia.txt 
+  193  git status
+  194  git add Historia.txt
+  195  git status
+  196  git commit -m "Primer commit del archivo"
+  197  git config
+  198  git config --list
+  199  git config --list --show-origin
+  200  git config --global user.name "Loscar"
+  201  git config --list
+  202  git status
+  203  cat Historia.txt 
+  204  cat Historia.txt 
+  205  git status
+  206  git add .
+  207  git status
+  208  git commit -m "Cambios al archivo historia"
+  209  git log Historia.txt
+  210  git show Historia.txt
+  211  git add .
+  212  git commit -m
+  213  git commit
+  214  git status
+  215  git add .
+  216  git commit
+  217  git show
+  218  git log
+  219  git diff e34261eda14e1a25129312fb73d9e2a5a6691bab c41a03cb3a2428bcfa5b0fe06f55012dc61b55ca
+  220  git diff c41a03cb3a2428bcfa5b0fe06f55012dc61b55ca e34261eda14e1a25129312fb73d9e2a5a6691bab
+  221  git log
+  222  git reset 102ce407534bb13b01739474f0a8e6c7ddd5268d --hard
+  223  git log
+  224  git status
+  225  git add .
+  226  git status
+  227  mkdir css
+  228  git status
+  229  git diff
+  230  git add .
+  231  git status
+  232  git commit -m "Arranco mi proyecto real con html y css"
+  233  git log
+  234  git add .
+  235  git commit -m cambio de vida
+  236  git commit -m 'cambio de vida'
+  237  git status
+  238  git add .
+  239  git commit -m 'Cambio de maestria'
+  240  git log
+  241  git log --stat
+  242  git checkout c41a03cb3a2428bcfa5b0fe06f55012dc61b55ca historia.txt
+  243  git checkout c41a03cb3a2428bcfa5b0fe06f55012dc61b55ca historia.txt
+  244  git checkout 102ce407534bb13b01739474f0a8e6c7ddd5268d historia.txt
+  245  git checkout 102ce407534bb13b01739474f0a8e6c7ddd5268d Historia.txt
+  246  git status
+  247  git checkout master Historia.txt
+  248  git checkout 102ce407534bb13b01739474f0a8e6c7ddd5268d Historia.txt
+  249  git add .
+  250  git commit -m 'Reemplazo de una version por otra de la historia'
+  251  git log
+  252  git log --stat
+  253  git log
+  254  git help
+  255  git help -a
+  256  git reset
+  257  git log
+  258  git status
+  259  git status
+  260  git add .
+  261  git reset --soft
+  262  git status
+  263  git reset
+  264  history
+  265  history >> git_commands.txt
